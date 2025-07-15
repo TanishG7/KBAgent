@@ -9,7 +9,7 @@ class Settings:
     COLLECTION_NAME = "document_collection"
     
     # API configuration
-    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyAYX1Ii7U8RR7ZIOj9zbxr7_iLfH_4jANQ")
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "key")
     GEMINI_MODEL = "gemini-2.5-flash"
     
     INITIAL_RETRIEVAL_MULTIPLIER = 2
