@@ -1,0 +1,24 @@
+# FastAPI stack
+fastapi==0.115.13
+uvicorn[standard]==0.34.3  # Updated to match your local
+
+# Pydantic stack
+pydantic==2.11.7
+pydantic-core==2.33.2
+pydantic-settings==2.9.1
+
+# AI/LLM stack
+google-generativeai==0.8.5  # Updated to match your local
+llama-index-core==0.12.43
+llama-index-embeddings-huggingface==0.5.4
+llama-index-vector-stores-chroma==0.4.1  # Updated to match your local
+
+# Vector database
+chromadb==1.0.13
+
+# HuggingFace stack
+transformers==4.52.4
+sentence-transformers==4.1.0
+
+# Utilities
+python-dotenv==1.1.0  # Updated to match your local
